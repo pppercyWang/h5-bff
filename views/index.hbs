@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
+    <title>{{SHOP_NAME}}</title>
+    <link rel="prefetch" href="{{SHOP_LOGO}}">
+    <script>
+      window.SHOP_INFO = {
+        'shop_logo': {{SHOP_LOGO}},
+        'shop_name': {{SHOP_NAME}}
+      }
+      // 部分组件依赖全局APPID和USERID, 提前初始化
+      window.APPID = {{app_id}};
+      window.USERID = {{user_id}};
+      window.__shop_type = {{__shop_type}}; // 为6时为智慧校园，直播没处理该逻辑，直播暂定规则为为企学院+小程序环境
+      window.__org_type = {{__org_type}}; // 组织类型
+      window.__shop_type = {{__shop_type}};
+    </script>
+    <script src="//sdk.xiaoeknow.com/ds/v8/xiaoeStatistics.js"></script>
+    <script src="https://sdk.xiaoeknow.com/sensors_static/v18/h5/sensorsStatistics.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="https://open.work.weixin.qq.com/wwopen/js/jwxwork-1.0.0.js"></script>
+  <link href="https://static.h5.inside.xiaoeknow.com/_training/css/b1dd91c7.app.css" rel="preload" as="style"><link href="https://static.h5.inside.xiaoeknow.com/_training/css/b1dd91c7.chunk-vendors.css" rel="preload" as="style"><link href="https://static.h5.inside.xiaoeknow.com/_training/js/b1dd91c7.app.js" rel="preload" as="script"><link href="https://static.h5.inside.xiaoeknow.com/_training/js/b1dd91c7.chunk-vendors.js" rel="preload" as="script"><link href="https://static.h5.inside.xiaoeknow.com/_training/css/b1dd91c7.chunk-vendors.css" rel="stylesheet"><link href="https://static.h5.inside.xiaoeknow.com/_training/css/b1dd91c7.app.css" rel="stylesheet"></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  <script type="text/javascript" src="https://static.h5.inside.xiaoeknow.com/_training/js/b1dd91c7.chunk-vendors.js"></script><script type="text/javascript" src="https://static.h5.inside.xiaoeknow.com/_training/js/b1dd91c7.app.js"></script></body>
+</html>
